@@ -1,0 +1,9 @@
+Git adalah salah satu dari Version Control System yang paling banyak digunakan, bahkan bisa menjadi skill yang wajib dimiliki oleh seorang programmer untuk bekerja, karena Git dirancang untuk memudahkan dalam pengembangan software dan juga untuk kolaborasi dengan tim. 
+Cara Kerja Git:
+Git menggunakan repositori untuk dapat melacak perubahan dalam kode. Setiap kali pembaruan dilakukan, Git menggunakan "commit" untuk merekam perubahan dan dapat memberikan "message" atau pesan untuk menandai dan memperjelas pembaruan apa yang sudah dilakukan. Setiap commit dilakukan maka akan ada nilai hash yang merupakan kode unik pada sebuah commit.
+Cara Menggunakan Git:
+Masuk ke dalam folder proyek > buka cmd di dalam direktori tersebut.
+- Inisialisasi: Gunakan perintah 'git init' untuk membuat repositori baru di direktori proyek yang sudah disiapkan.
+- Membuat Commit: Gunakan perintah 'git add <file>' untuk menambahkan file atau direktori dan kemudian gunakan perintah 'git commit -m "<message>"' untuk membuat commit baru.
+- Branching dan Merging: Gunakan perintah 'git branch <branch-name>' untuk membuat branch baru, dan gunakan 'git merge <branch-name>' untuk menggabungkan perubahan dari branch lain ke branch saat ini.
+- Remote Repositori: Gunakan 'git remote add origin <url-remote>' untuk menambahkan repository git pada server dan 'git push -u origin main' untuk push repository.
